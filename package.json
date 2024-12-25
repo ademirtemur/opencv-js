@@ -1,9 +1,15 @@
 {
-  "name": "@techstark/opencv-js",
-  "version": "4.10.0-release.1",
+  "name": "mat-opencvjs",
+  "version": "4.10.0-release.3",
   "description": "OpenCV JavaScript version for node.js or browser",
   "main": "dist/opencv.js",
   "types": "dist/src/index.d.ts",
+  "browser": {
+    "path": false,
+    "fs": false,
+    "node": false,
+    "crypto": false
+  },
   "files": [
     "dist/",
     "src/"
